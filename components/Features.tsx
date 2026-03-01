@@ -19,7 +19,7 @@ export default function Features() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((i) => (
             <AnimateIn key={i} delay={i * 0.08}>
-              <div className="group rounded-2xl border border-card-border bg-card p-6 transition-colors hover:border-primary/40">
+              <div className="group rounded-2xl border border-[#1a2744] bg-[#0d1525] p-6 transition-all hover:border-primary/40 hover:shadow-[0_0_20px_rgba(34,211,238,0.1)]">
                 <span className="mb-4 block text-3xl">{featureIcons[i]}</span>
                 <h3 className="mb-2 text-lg font-semibold text-foreground">
                   {t(`items.${i}.title`)}

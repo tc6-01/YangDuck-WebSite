@@ -4,7 +4,7 @@ export default function Footer() {
   const t = useTranslations("footer");
 
   return (
-    <footer className="border-t border-card-border bg-background">
+    <footer className="border-t border-[#1a2744] bg-[#060a14]">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-12 text-sm text-muted md:flex-row md:justify-between">
         <div className="flex items-center gap-6">
           <a

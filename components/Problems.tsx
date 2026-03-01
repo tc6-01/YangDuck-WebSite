@@ -22,7 +22,7 @@ export default function Problems() {
         <div className="grid gap-8 md:grid-cols-3">
           {items.map((i) => (
             <AnimateIn key={i} delay={i * 0.1}>
-              <div className="rounded-2xl border border-card-border bg-card p-6">
+              <div className="rounded-2xl border border-[#1a2744] bg-[#0d1525] p-6 transition-all hover:border-primary/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.08)]">
                 {/* Problem */}
                 <div className="mb-6">
                   <div className="mb-3 flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function Problems() {
                   </p>
                 </div>
 
-                <div className="mb-6 border-t border-card-border" />
+                <div className="mb-6 border-t border-primary/10" />
 
                 {/* Solution */}
                 <div>

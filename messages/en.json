@@ -66,11 +66,13 @@
   },
   "install": {
     "title": "Install",
-    "command": "curl -fsSL https://raw.githubusercontent.com/tc6-01/YangDuck/master/install.sh | sh",
+    "command": "brew install tc6-01/yduck/yduck",
     "copied": "Copied!",
     "copy": "Copy",
-    "alt_title": "Or download from GitHub Releases",
-    "alt_link": "Go to Releases →"
+    "alt_title": "Or install with a one-liner",
+    "alt_command": "curl -fsSL https://raw.githubusercontent.com/tc6-01/YangDuck/master/install.sh | sh",
+    "releases_title": "Manual download",
+    "releases_link": "Go to Releases →"
   },
   "footer": {
     "github": "GitHub",

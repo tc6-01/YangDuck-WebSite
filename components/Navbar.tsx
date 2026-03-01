@@ -27,7 +27,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 z-50 w-full border-b border-card-border bg-background/80 backdrop-blur-md">
+    <nav className="fixed top-0 z-50 w-full border-b border-[#1a2744] bg-[#080c18]/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <span className="text-xl font-bold text-primary">🦆</span>
