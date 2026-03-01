@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Features",
+    "install": "Install",
+    "docs": "Docs",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "yduck",
+    "subtitle": "New Mac? One command to set up everything.",
+    "description": "CLI tools + AI extensions, installed and ready to use.",
+    "cta_start": "Get Started",
+    "cta_github": "GitHub"
+  },
+  "problems": {
+    "title": "Developer Pain Points",
+    "items": [
+      {
+        "problem": "Repetitive setup on new machines",
+        "problem_desc": "Every new Mac means spending hours manually installing dozens of tools and forgetting half the configs.",
+        "solution": "Recipe system, one command",
+        "solution_desc": "YAML recipes define installation steps. One command restores your entire dev environment."
+      },
+      {
+        "problem": "High barrier for MCP/Skills config",
+        "problem_desc": "Manually editing JSON, installing dependencies, setting env vars — beginners give up.",
+        "solution": "Interactive guided setup",
+        "solution_desc": "TUI walks you through installation. Configs are collected interactively and written automatically."
+      },
+      {
+        "problem": "Don't know what to install",
+        "problem_desc": "So many CLI tools and AI extensions out there. Which ones are worth it? How to use them?",
+        "solution": "Role-based bundles",
+        "solution_desc": "Frontend dev bundle, AI starter bundle — pick your role, get everything installed."
+      }
+    ]
+  },
+  "features": {
+    "title": "Core Features",
+    "items": [
+      {
+        "title": "CLI Tool Installation",
+        "description": "Powered by Homebrew. Install popular CLI tools with built-in quickstart guides."
+      },
+      {
+        "title": "AI Extensions One-Click",
+        "description": "MCP servers, Cursor Skills / Commands / Rules — auto-configured and ready to use."
+      },
+      {
+        "title": "Recipe System",
+        "description": "YAML-defined install recipes with JSON Schema validation, community contributions, and auto-publishing."
+      },
+      {
+        "title": "Dual Mode",
+        "description": "Beginner mode with step-by-step guidance. Advanced mode for batch silent installs."
+      },
+      {
+        "title": "Bundle System",
+        "description": "Role-based tool bundles. Frontend dev bundle, AI starter bundle — one command to install all."
+      },
+      {
+        "title": "Recipe Generator",
+        "description": "Auto-generates YAML recipes from brew info / npm info using AI formatting."
+      }
+    ]
+  },
+  "install": {
+    "title": "Install",
+    "command": "curl -fsSL https://raw.githubusercontent.com/tc6-01/YangDuck/master/install.sh | sh",
+    "copied": "Copied!",
+    "copy": "Copy",
+    "alt_title": "Or download from GitHub Releases",
+    "alt_link": "Go to Releases →"
+  },
+  "footer": {
+    "github": "GitHub",
+    "docs": "Docs",
+    "license": "MIT License",
+    "made_with": "Built for developers"
+  },
+  "metadata": {
+    "title": "yduck - One command to set up your macOS dev environment",
+    "description": "A macOS CLI tool that installs dev tools and AI coding extensions (MCP/Skills/Rules) with a beginner-friendly interactive TUI."
+  }
+}

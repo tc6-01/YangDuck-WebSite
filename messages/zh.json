@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "功能",
+    "install": "安装",
+    "docs": "文档",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "yduck",
+    "subtitle": "新电脑？一条命令搞定开发环境。",
+    "description": "CLI 工具 + AI 扩展，装完即教你用。",
+    "cta_start": "快速开始",
+    "cta_github": "GitHub"
+  },
+  "problems": {
+    "title": "开发者的痛",
+    "items": [
+      {
+        "problem": "换电脑重复装机",
+        "problem_desc": "每次换电脑都要花半天手动安装几十个工具，装完还忘了配置。",
+        "solution": "配方系统一键搞定",
+        "solution_desc": "YAML 配方定义安装方式，一条命令恢复完整开发环境。"
+      },
+      {
+        "problem": "MCP/Skills 配置门槛高",
+        "problem_desc": "手动编辑 JSON、安装依赖、配置环境变量，初学者望而却步。",
+        "solution": "交互式引导零门槛",
+        "solution_desc": "TUI 界面引导安装，需要填写的配置交互式收集，自动写入。"
+      },
+      {
+        "problem": "不知道装什么好用",
+        "problem_desc": "CLI 工具和 AI 扩展那么多，不知道哪些值得装、怎么用。",
+        "solution": "套餐按角色推荐",
+        "solution_desc": "前端开发套餐、AI 入门套餐，按你的角色一键装好。"
+      }
+    ]
+  },
+  "features": {
+    "title": "核心功能",
+    "items": [
+      {
+        "title": "CLI 工具安装",
+        "description": "基于 Homebrew，一键安装常用 CLI 工具，装完提供使用引导。"
+      },
+      {
+        "title": "AI 扩展一键装",
+        "description": "MCP 服务器、Cursor Skills / Commands / Rules，自动写入配置。"
+      },
+      {
+        "title": "配方系统",
+        "description": "YAML 定义安装方式，JSON Schema 校验，社区贡献，自动发布。"
+      },
+      {
+        "title": "双模式",
+        "description": "新手模式逐步引导有解释，高级模式批量安装一步到位。"
+      },
+      {
+        "title": "套餐系统",
+        "description": "按角色和场景组合多个配方，前端套餐、AI 入门套餐一键装。"
+      },
+      {
+        "title": "配方生成器",
+        "description": "从 brew info / npm info 采集数据，AI 自动生成标准 YAML 配方。"
+      }
+    ]
+  },
+  "install": {
+    "title": "安装",
+    "command": "curl -fsSL https://raw.githubusercontent.com/tc6-01/YangDuck/master/install.sh | sh",
+    "copied": "已复制！",
+    "copy": "复制",
+    "alt_title": "或从 GitHub Releases 下载",
+    "alt_link": "前往 Releases →"
+  },
+  "footer": {
+    "github": "GitHub",
+    "docs": "文档",
+    "license": "MIT License",
+    "made_with": "为开发者而生"
+  },
+  "metadata": {
+    "title": "yduck - 一条命令搞定 macOS 开发环境",
+    "description": "macOS CLI 工具，一键安装开发工具和 AI 编码扩展（MCP/Skills/Rules），新手友好的交互式引导。"
+  }
+}
